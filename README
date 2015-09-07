@@ -1,0 +1,10 @@
+使用数据库：sakila
+数据库用户名：root
+数据库密码: 123456
+
+
+mvn clean
+mvn compile
+mvn tomcat:run
+在浏览器中输入如下地址：
+http://localhost:8080/struts2_Exam8821/login.jsp

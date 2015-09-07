@@ -1,0 +1,140 @@
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<filter>
+		<filter-name>struts2</filter-name>
+		<display-name>struts2</display-name>
+		<description></description>
+		<filter-class>com.hand.test.struts2</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet>
+		<servlet-name>loginCheck</servlet-name>
+		<display-name>loginCheck</display-name>
+		<description></description>
+		<servlet-class>com.hand.test.loginCheck</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>UserMange</servlet-name>
+		<display-name>UserMange</display-name>
+		<description></description>
+		<servlet-class>com.hand.test.UserMange</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>getPageNum</servlet-name>
+		<display-name>getPageNum</display-name>
+		<description></description>
+		<servlet-class>com.hand.test.getPageNum</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>addCustomer</servlet-name>
+		<display-name>addCustomer</display-name>
+		<description></description>
+		<servlet-class>com.hand.test.addCustomer</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>changeUser</servlet-name>
+		<display-name>changeUser</display-name>
+		<description></description>
+		<servlet-class>com.hand.test.changeUser</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>delUser</servlet-name>
+		<display-name>delUser</display-name>
+		<description></description>
+		<servlet-class>com.hand.test.delUser</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginCheck</servlet-name>
+		<url-pattern>/login.check</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>UserMange</servlet-name>
+		<url-pattern>/UserMange</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>getPageNum</servlet-name>
+		<url-pattern>/getPageNum</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>addCustomer</servlet-name>
+		<url-pattern>/addCustomer</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>changeUser</servlet-name>
+		<url-pattern>/changeUser</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>delUser</servlet-name>
+		<url-pattern>/delUser</url-pattern>
+	</servlet-mapping>
+</web-app> 
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
